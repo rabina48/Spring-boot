@@ -3,18 +3,19 @@ package com.example.demo.Model;
 public class BankModel {
 
     private int checkid;
-    private  String first_name;
-    private  String last_name;
-    private  String email;
-    private  String gender;
-    private  String bank_balance;
-    private  String country;
+    private String first_name;
+    private String last_name;
+    private String email;
+    private String gender;
+    private String bank_balance;
+    private String country;
 
     public int getCheckid() {
         return checkid;
     }
 
     public void setCheckid(int checkid) {
+
         this.checkid = checkid;
     }
 
